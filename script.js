@@ -3,6 +3,7 @@ const phrasesList = ["my Parents", "my Sisters", "my Brother"];
 let score = 0
 let userChoice = prompt("chose between the 'word' and the 'phrase'.");
 while( userChoice !== "word" && userChoice !== "phrase" ){
+    alert("Invalid choice. Please choose either 'word' or 'phrase'.");
     userChoice = prompt("chose between the 'word' and the 'phrase'.");
 }
 if(userChoice === "word"){
